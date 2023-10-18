@@ -1,0 +1,77 @@
+/* ERROR MESSAGES */
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* SUCCESS MESSAGES */
+.success-message {
+  color: green;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* REQUIRED FIELD */
+.required {
+  color: red;
+  font-size: 14px;
+}
+
+/* INPUT FIELDS WITH ERRORS */
+.error {
+  border: 2px solid red;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Add a soft red shadow for error input */
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Add smooth transitions */
+}
+
+/* INPUT FIELDS WITH SUCCESS */
+.success {
+  border: 2px solid green;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Add a soft green shadow for success input */
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Add smooth transitions */
+}
+
+/* Style for the submit button */
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Style for the form container */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered text */
+.text-center {
+  text-align: center;
+}
+
+/* Style for the input field when focused */
+input:focus {
+
+  outline: none; /* Remove the default outline style (usually a blue glow) */
+  border: 2px solid red;
+}
+
+input.success:focus {
+  border: 2px solid green;
+}
+
+.success-message {
+  display: block;
+}
